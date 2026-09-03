@@ -4,7 +4,7 @@ public class GarColl {
 	@Override
 	protected void finalize() throws Throwable {
 		super.finalize();
-		System.out.println(" Finalized");
+		System.out.println(" Object destroyed");
 	}
 	public static void m1() {
 		GarColl g4 = new GarColl();
